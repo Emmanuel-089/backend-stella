@@ -1,0 +1,776 @@
+{
+	"info": {
+		"_postman_id": "007ea221-c0d9-410f-a748-595b35f9cc34",
+		"name": "Api Datos Generales",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38823592"
+	},
+	"item": [
+		{
+			"name": "Agencia",
+			"item": [
+				{
+					"name": "http://backend-stella.test/api/agencia",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre_age",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://backend-stella.test/api/agencia",
+							"protocol": "http",
+							"host": [
+								"backend-stella",
+								"test"
+							],
+							"path": [
+								"api",
+								"agencia"
+							]
+						},
+						"description": "Agencia"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Departamento",
+			"item": [
+				{
+					"name": "http://backend-stella.test/api/departamento",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre_depto",
+									"value": "Abogados",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://backend-stella.test/api/departamento",
+							"protocol": "http",
+							"host": [
+								"backend-stella",
+								"test"
+							],
+							"path": [
+								"api",
+								"departamento"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Area",
+			"item": [
+				{
+					"name": "http://backend-stella.test/api/area",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre_area",
+									"value": "Control General Refacciones",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://backend-stella.test/api/area",
+							"protocol": "http",
+							"host": [
+								"backend-stella",
+								"test"
+							],
+							"path": [
+								"api",
+								"area"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Empleado",
+			"item": [
+				{
+					"name": "http://backend-stella.test/api/empleado",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre_emp",
+									"value": "Eros Valentin Elizalde",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://backend-stella.test/api/empleado",
+							"protocol": "http",
+							"host": [
+								"backend-stella",
+								"test"
+							],
+							"path": [
+								"api",
+								"empleado"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Categoria",
+			"item": [
+				{
+					"name": "http://backend-stella.test/api/categoria",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre_catego",
+									"value": "Ejemplo 2",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://backend-stella.test/api/categoria",
+							"protocol": "http",
+							"host": [
+								"backend-stella",
+								"test"
+							],
+							"path": [
+								"api",
+								"categoria"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Marca",
+			"item": [
+				{
+					"name": "http://backend-stella.test/api/marca",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre_marca",
+									"value": "Asus",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://backend-stella.test/api/marca",
+							"protocol": "http",
+							"host": [
+								"backend-stella",
+								"test"
+							],
+							"path": [
+								"api",
+								"marca"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Modelo",
+			"item": [
+				{
+					"name": "http://backend-stella.test/api/modelo",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre_modelo",
+									"value": "Tinkpad DEll",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://backend-stella.test/api/modelo",
+							"protocol": "http",
+							"host": [
+								"backend-stella",
+								"test"
+							],
+							"path": [
+								"api",
+								"modelo"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Monitor",
+			"item": [
+				{
+					"name": "Monitor",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre_monitor",
+									"value": "Asus 25\" aaaaa",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://backend-stella.test/api/monitor",
+							"protocol": "http",
+							"host": [
+								"backend-stella",
+								"test"
+							],
+							"path": [
+								"api",
+								"monitor"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SO",
+			"item": [
+				{
+					"name": "SO",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre_so",
+									"value": "Ubuntuttttta",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://backend-stella.test/api/so",
+							"protocol": "http",
+							"host": [
+								"backend-stella",
+								"test"
+							],
+							"path": [
+								"api",
+								"so"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "LicSO",
+			"item": [
+				{
+					"name": "LicSO",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre_licso",
+									"value": "siiiiiiiiiiii",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://backend-stella.test/api/licso",
+							"protocol": "http",
+							"host": [
+								"backend-stella",
+								"test"
+							],
+							"path": [
+								"api",
+								"licso"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Procesador",
+			"item": [
+				{
+					"name": "Procesador",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre_cpu",
+									"value": "Ryzen Prueba new 2",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://backend-stella.test/api/procesador",
+							"protocol": "http",
+							"host": [
+								"backend-stella",
+								"test"
+							],
+							"path": [
+								"api",
+								"procesador"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "DiscoDuro",
+			"item": [
+				{
+					"name": "DiscoDuro",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre_dd",
+									"value": "ddddd",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://backend-stella.test/api/discoduro",
+							"protocol": "http",
+							"host": [
+								"backend-stella",
+								"test"
+							],
+							"path": [
+								"api",
+								"discoduro"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TipoDiscoDuro",
+			"item": [
+				{
+					"name": "TipoDiscoDuro",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre_tipodd",
+									"value": "Ejempl 2345",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://backend-stella.test/api/tipodiscoduro",
+							"protocol": "http",
+							"host": [
+								"backend-stella",
+								"test"
+							],
+							"path": [
+								"api",
+								"tipodiscoduro"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Ram",
+			"item": [
+				{
+					"name": "Ram",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre_ram",
+									"value": "Ejemplo aaaaaaaaaaa",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://backend-stella.test/api/ram",
+							"protocol": "http",
+							"host": [
+								"backend-stella",
+								"test"
+							],
+							"path": [
+								"api",
+								"ram"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Antivirus",
+			"item": [
+				{
+					"name": "Antivirus",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre_antivirus",
+									"value": "Ejemplo aantivirus 2222222222",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://backend-stella.test/api/antivirus",
+							"protocol": "http",
+							"host": [
+								"backend-stella",
+								"test"
+							],
+							"path": [
+								"api",
+								"antivirus"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Office",
+			"item": [
+				{
+					"name": "Office",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre_office",
+									"value": "2050aaaa",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://backend-stella.test/api/office",
+							"protocol": "http",
+							"host": [
+								"backend-stella",
+								"test"
+							],
+							"path": [
+								"api",
+								"office"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "LicOffice",
+			"item": [
+				{
+					"name": "LicOffice",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre_licoffice",
+									"value": "talvez siiiii",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://backend-stella.test/api/licoffice",
+							"protocol": "http",
+							"host": [
+								"backend-stella",
+								"test"
+							],
+							"path": [
+								"api",
+								"licoffice"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

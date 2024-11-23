@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "d6d77ef0-b438-437f-82ca-702e5d7244e0",
+		"name": "ModuloControlGeneral",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38823592"
+	},
+	"item": [
+		{
+			"name": "ModuloControlGeneral",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id_equipo",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "id_agencia",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "id_depto",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "id_area",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "empleado",
+							"value": "Emmanuel Almaaaaaaa",
+							"type": "text"
+						},
+						{
+							"key": "id_catego",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "numero_serie",
+							"value": "PXCCCCCCCCCCCC",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://backend-stella.test/api/modulocontrolgeneral",
+					"protocol": "http",
+					"host": [
+						"backend-stella",
+						"test"
+					],
+					"path": [
+						"api",
+						"modulocontrolgeneral"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

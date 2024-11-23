@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "1629787b-332b-4232-8ba5-3df54e4b9321",
+		"name": "ModuloComputadoraEquipo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "38823592"
+	},
+	"item": [
+		{
+			"name": "ModuloComputadoraEquipo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id_catego",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "id_marca",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "id_modelo",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "numero_serie",
+							"value": "PXCCCCCCCCCCCC",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "id_so",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "id_licso",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "id_cpu",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "id_dd",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "id_tipodd",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "id_ram",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "id_antivirus",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "id_office",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "id_licoffice",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "fecha_compra",
+							"value": "2024-11-22",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "costo",
+							"value": "777",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "http://backend-stella.test/api/modulocomputadoraequipo"
+			},
+			"response": []
+		}
+	]
+}

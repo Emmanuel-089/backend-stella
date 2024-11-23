@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "ea1b098e-e41f-4abe-9f27-ff2dbae465cb",
+		"name": "ModuloMantenimiento",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38823592"
+	},
+	"item": [
+		{
+			"name": "ModuloMantenimiento",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "tipo_mant",
+							"value": "Preventivo",
+							"type": "text"
+						},
+						{
+							"key": "id_admin",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "id_mod_general",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "id_agencia",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "id_depto",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "id_area",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "empleado",
+							"value": "Daniel Juarez",
+							"type": "text"
+						},
+						{
+							"key": "id_catego",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "numero_serie",
+							"value": "ASVWSASD6545",
+							"type": "text"
+						},
+						{
+							"key": "puerto_ip",
+							"value": "192.168.1.222",
+							"type": "text"
+						},
+						{
+							"key": "id_monitor",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "correo_equipo",
+							"value": "ejemplo22@ejemplo.com22",
+							"type": "text"
+						},
+						{
+							"key": "password_equipo",
+							"value": "1234564",
+							"type": "text"
+						},
+						{
+							"key": "accesorios",
+							"value": "HUB",
+							"type": "text"
+						},
+						{
+							"key": "condicion",
+							"value": "Buena",
+							"type": "text"
+						},
+						{
+							"key": "comentario",
+							"value": "Todo bien",
+							"type": "text"
+						},
+						{
+							"key": "fecha_mant",
+							"value": "2024-11-23 02:59:47",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://backend-stella.test/api/modulomantenimiento",
+					"protocol": "http",
+					"host": [
+						"backend-stella",
+						"test"
+					],
+					"path": [
+						"api",
+						"modulomantenimiento"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

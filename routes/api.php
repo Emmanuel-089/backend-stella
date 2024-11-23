@@ -19,6 +19,7 @@ use App\Http\Controllers\ApiGeneral\OfficeController;
 use App\Http\Controllers\ApiGeneral\LicOfficeController;
 use App\Http\Controllers\ModuloComputadoraEquipo\ModuloComputadoraEquipoController;
 use App\Http\Controllers\ModuloControlGeneral\ModuloControlGeneralController;
+use App\Http\Controllers\ModuloMantenimiento\ModuloMantenimientoController;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
@@ -42,3 +43,4 @@ Route::resource('office', OfficeController::class)->except(['create', 'edit']);
 Route::resource('licoffice', LicOfficeController::class)->except(['create', 'edit']);
 Route::resource('modulocomputadoraequipo', ModuloComputadoraEquipoController::class)->except(['create', 'edit']);
 Route::resource('modulocontrolgeneral', ModuloControlGeneralController::class)->except(['create', 'edit']);
+Route::resource('modulomantenimiento', ModuloMantenimientoController::class)->except(['create', 'edit']);
