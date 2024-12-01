@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\Http\Controllers\ApiGeneral;
 use App\Http\Controllers\Controller;
 use Storage;
@@ -10,7 +9,6 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests\Agencia\CrearAgenciaRequest;
 use App\Http\Requests\Agencia\ActualizarAgenciaRequest;
-
 
 class AgenciaController
 {
@@ -23,7 +21,7 @@ class AgenciaController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(Agencia::paginate(5));
+        return response()->json(Agencia::get());
     }
 
    //============  APi de crear------------ Store
@@ -45,8 +43,6 @@ class AgenciaController
         return response()->json($agencia);
     }
 
-
-  
     //============  API de ACTUALIZAR  ------------ PUT
     public function update(ActualizarAgenciaRequest $request, $id_agencia)
     {
@@ -61,8 +57,6 @@ class AgenciaController
 
         return response()->json($agencia);
     }
-
-
 
     //============  api de eliminar DELETE
     public function destroy($id_agencia)

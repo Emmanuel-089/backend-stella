@@ -23,7 +23,7 @@ class ModuloComputadoraEquipoController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(ModuloComputadoraEquipo::paginate(5));
+        return response()->json(ModuloComputadoraEquipo::paginate(20));
     }
 
    //============  APi de crear------------ Store

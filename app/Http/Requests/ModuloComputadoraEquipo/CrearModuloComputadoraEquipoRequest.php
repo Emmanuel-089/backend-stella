@@ -17,9 +17,9 @@ class CrearModuloComputadoraEquipoRequest extends FormRequest
         return [
             'id_catego' => 'required',
             'id_marca' => 'required',
-            'id_modelo' => 'required',
-            'numero_serie' => 'required',
-            'id_so' => 'required',
+            'id_modelo' => '',
+            'numero_serie' => '',
+            'id_so' => '',
             'id_licso' => '',
             'id_cpu' => '',
             'id_dd' => '',

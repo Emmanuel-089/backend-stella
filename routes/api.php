@@ -20,6 +20,7 @@ use App\Http\Controllers\ApiGeneral\LicOfficeController;
 use App\Http\Controllers\ModuloComputadoraEquipo\ModuloComputadoraEquipoController;
 use App\Http\Controllers\ModuloControlGeneral\ModuloControlGeneralController;
 use App\Http\Controllers\ModuloMantenimiento\ModuloMantenimientoController;
+use App\Http\Controllers\Administrador\AdministradorController;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
@@ -44,3 +45,7 @@ Route::resource('licoffice', LicOfficeController::class)->except(['create', 'edi
 Route::resource('modulocomputadoraequipo', ModuloComputadoraEquipoController::class)->except(['create', 'edit']);
 Route::resource('modulocontrolgeneral', ModuloControlGeneralController::class)->except(['create', 'edit']);
 Route::resource('modulomantenimiento', ModuloMantenimientoController::class)->except(['create', 'edit']);
+
+// routes/api.php
+Route::resource('administrador', AdministradorController::class)->except(['create', 'edit']);
+Route::post('login', [AdministradorController::class, 'login']);
