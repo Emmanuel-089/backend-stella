@@ -23,7 +23,7 @@ class ProcesadorController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(Procesador::paginate(5));
+        return response()->json(Procesador::get());
     }
 
    //============  APi de crear------------ Store

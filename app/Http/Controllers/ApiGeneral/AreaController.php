@@ -23,7 +23,7 @@ class AreaController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(Area::paginate(5));
+        return response()->json(Area::get());
     }
 
    //============  APi de crear------------ Store

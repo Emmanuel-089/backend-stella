@@ -23,7 +23,7 @@ class ModuloMantenimientoController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(ModuloMantenimiento::paginate(5));
+        return response()->json(ModuloMantenimiento::get());
     }
 
    //============  APi de crear------------ Store

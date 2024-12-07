@@ -23,7 +23,7 @@ class TipoDiscoDuroController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(TipoDiscoDuro::paginate(5));
+        return response()->json(TipoDiscoDuro::get());
     }
 
    //============  APi de crear------------ Store

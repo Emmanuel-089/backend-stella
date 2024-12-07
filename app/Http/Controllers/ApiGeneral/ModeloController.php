@@ -23,7 +23,7 @@ class ModeloController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(Modelo::paginate(5));
+        return response()->json(Modelo::get());
     }
 
    //============  APi de crear------------ Store

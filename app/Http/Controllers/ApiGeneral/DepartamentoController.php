@@ -23,7 +23,7 @@ class DepartamentoController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(Departamento::paginate(5));
+        return response()->json(Departamento::get());
     }
 
    //============  APi de crear------------ Store

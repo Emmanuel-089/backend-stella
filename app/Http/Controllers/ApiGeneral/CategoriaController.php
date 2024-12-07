@@ -23,7 +23,7 @@ class CategoriaController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(Categoria::paginate(5));
+        return response()->json(Categoria::get());
     }
 
    //============  APi de crear------------ Store

@@ -23,7 +23,7 @@ class MarcaController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(Marca::paginate(5));
+        return response()->json(Marca::get());
     }
 
    //============  APi de crear------------ Store

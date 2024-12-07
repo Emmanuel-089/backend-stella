@@ -23,7 +23,7 @@ class SOController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(SO::paginate(5));
+        return response()->json(SO::get());
     }
 
    //============  APi de crear------------ Store

@@ -23,7 +23,7 @@ class DiscoDuroController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(DiscoDuro::paginate(5));
+        return response()->json(DiscoDuro::get());
     }
 
    //============  APi de crear------------ Store

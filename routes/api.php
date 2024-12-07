@@ -22,6 +22,7 @@ use App\Http\Controllers\ModuloControlGeneral\ModuloControlGeneralController;
 use App\Http\Controllers\ModuloMantenimiento\ModuloMantenimientoController;
 use App\Http\Controllers\Administrador\AdministradorController;
 
+use App\Http\Controllers\ApiGeneral\DepartamentoAreaController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 //-------------------- categoria
@@ -45,6 +46,9 @@ Route::resource('licoffice', LicOfficeController::class)->except(['create', 'edi
 Route::resource('modulocomputadoraequipo', ModuloComputadoraEquipoController::class)->except(['create', 'edit']);
 Route::resource('modulocontrolgeneral', ModuloControlGeneralController::class)->except(['create', 'edit']);
 Route::resource('modulomantenimiento', ModuloMantenimientoController::class)->except(['create', 'edit']);
+Route::resource('depto-areas', DepartamentoAreaController::class)->except(['create', 'edit']);
+
+
 
 // routes/api.php
 Route::resource('administrador', AdministradorController::class)->except(['create', 'edit']);

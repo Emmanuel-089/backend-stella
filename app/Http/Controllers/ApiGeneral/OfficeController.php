@@ -23,7 +23,7 @@ class OfficeController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(Office::paginate(5));
+        return response()->json(Office::get());
     }
 
    //============  APi de crear------------ Store

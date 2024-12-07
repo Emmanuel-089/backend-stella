@@ -23,7 +23,7 @@ class EmpleadoController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(Empleado::paginate(5));
+        return response()->json(Empleado::get());
     }
 
    //============  APi de crear------------ Store

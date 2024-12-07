@@ -23,7 +23,7 @@ class AntivirusController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(Antivirus::paginate(5));
+        return response()->json(Antivirus::get());
     }
 
    //============  APi de crear------------ Store

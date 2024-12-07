@@ -23,7 +23,7 @@ class LicSOController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(LicSO::paginate(5));
+        return response()->json(LicSO::get());
     }
 
    //============  APi de crear------------ Store

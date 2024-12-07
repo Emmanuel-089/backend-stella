@@ -23,7 +23,7 @@ class LicOfficeController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(LicOffice::paginate(5));
+        return response()->json(LicOffice::get());
     }
 
    //============  APi de crear------------ Store

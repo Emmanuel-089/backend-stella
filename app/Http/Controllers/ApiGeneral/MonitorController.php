@@ -23,7 +23,7 @@ class MonitorController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(Monitor::paginate(5));
+        return response()->json(Monitor::get());
     }
 
    //============  APi de crear------------ Store

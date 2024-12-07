@@ -23,7 +23,7 @@ class ModuloControlGeneralController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(ModuloControlGeneral::paginate(5));
+        return response()->json(ModuloControlGeneral::get());
     }
 
    //============  APi de crear------------ Store

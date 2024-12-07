@@ -23,7 +23,7 @@ class RamController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(Ram::paginate(5));
+        return response()->json(Ram::get());
     }
 
    //============  APi de crear------------ Store

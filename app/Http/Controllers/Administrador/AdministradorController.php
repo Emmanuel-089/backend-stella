@@ -41,7 +41,7 @@ class AdministradorController
     //============  funcion del reporte principal
     public function index()
     {
-        return response()->json(Administrador::paginate(5));
+        return response()->json(Administrador::get());
     }
 
    //============  APi de crear------------ Store
