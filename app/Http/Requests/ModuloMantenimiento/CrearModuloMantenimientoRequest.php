@@ -17,7 +17,6 @@ class CrearModuloMantenimientoRequest extends FormRequest
         return [
             'tipo_mant' => 'required',
             'id_admin' => 'required',
-            'id_mod_general' => 'required',
             'id_agencia' => 'required',
             'id_depto' => 'required',
             'id_area' => 'required',

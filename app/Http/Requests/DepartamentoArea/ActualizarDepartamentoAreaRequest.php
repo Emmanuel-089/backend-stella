@@ -14,9 +14,8 @@ class ActualizarDepartamentoAreaRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'id_depto' => 'required|integer|exists:departamentos,id_depto',
-            'id_area' => 'required|integer|exists:areas,id_area',
+            'id_depto' => 'required|exists:departamentos,id_depto',
+            'id_area' => 'required|exists:areas,id_area',
         ];
     }
-
 }

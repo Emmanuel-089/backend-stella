@@ -29,6 +29,11 @@ class CrearModuloComputadoraEquipoRequest extends FormRequest
             'id_office' => '',
             'id_licoffice' => '',
             'fecha_compra' => '',
+            'id_agencia' => '',
+            'id_depto' => '',
+            'id_area' => '',
+            'empleado' => '',
+            'id_dep_area' => '',
             'costo' => '',
             
         ];
