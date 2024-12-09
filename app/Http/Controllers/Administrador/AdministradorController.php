@@ -72,18 +72,30 @@ class AdministradorController
   
     //============  API de ACTUALIZAR  ------------ PUT 
     public function update(ActualizarAdministradorRequest $request, $id_admin)
-    {
-        // Obtener la administrador por ID
-        $administrador = Administrador::find($id_admin);
+{
+    $administrador = Administrador::find($id_admin);
 
-        // Si la administrador no existe, devolver error
-        if (!$administrador) {
-            return response()->json(['message' => 'Administrador no encontrada'], 404);
-        }
-        $administrador->update($request->validated());
-
-        return response()->json($administrador);
+    if (!$administrador) {
+        return response()->json(['message' => 'Administrador no encontrado'], 404);
     }
+
+    // Obtener datos validados
+    $data = $request->validated();
+
+    // Solo cifrar y actualizar la contraseña si está presente en la solicitud
+    if (!empty($data['password'])) {
+        $data['password'] = Hash::make($data['password']);
+    } else {
+        unset($data['password']); // Elimina 'password' si no se envió
+    }
+
+    // Actualizar el administrador
+    $administrador->update($data);
+
+    return response()->json($administrador);
+}
+
+
 
 
 
