@@ -15,6 +15,6 @@ class ModuloMantenimiento extends Model
     [
     'tipo_mant','id_admin','id_agencia', 'id_depto','id_area','empleado','id_catego','numero_serie',
     'puerto_ip','id_monitor','correo_equipo','password_equipo',
-    'accesorios','condicion','comentario','fecha_mant'
+    'accesorios','condicion','comentario','fecha_mant','id_equipo'
     ];
 }

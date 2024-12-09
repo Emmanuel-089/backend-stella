@@ -15,6 +15,7 @@ class ActualizarModuloMantenimientoRequest extends FormRequest
 
         return [
             'tipo_mant' => '',
+            'id_equipo' => '',
             'id_admin' => '',
             'id_agencia' => '',
             'id_depto' => '',

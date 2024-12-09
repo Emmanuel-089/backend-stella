@@ -17,6 +17,7 @@ class CrearModuloMantenimientoRequest extends FormRequest
         return [
             'tipo_mant' => 'required',
             'id_admin' => 'required',
+            'id_equipo' => 'required',
             'id_agencia' => 'required',
             'id_depto' => 'required',
             'id_area' => 'required',
@@ -24,13 +25,13 @@ class CrearModuloMantenimientoRequest extends FormRequest
             'id_catego' => 'required',
             'numero_serie' => 'required',
             'puerto_ip' => '',
-            'id_monitor' => 'required',
-            'correo_equipo' => 'required',
-            'password_equipo' => 'required',
-            'accesorios' => 'required',
-            'condicion' => 'required',
+            'id_monitor' => '',
+            'correo_equipo' => '',
+            'password_equipo' => '',
+            'accesorios' => '',
+            'condicion' => '',
             'comentario' => '',
-            'fecha_mant' => 'required',
+            'fecha_mant' => '',
             
         ];
     }
